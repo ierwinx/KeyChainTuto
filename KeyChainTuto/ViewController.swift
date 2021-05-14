@@ -56,8 +56,6 @@ class ViewController: UIViewController {
             resultado.text = "Informacion eliminada"
             
             keychainWeb["username"] = nil
-1234
-            
             
         } catch let error {
             print("Error: \(error)")
